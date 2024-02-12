@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f9be4bc8.css",
+    "main.js": "/static/js/main.75a36f5c.js",
+    "static/js/787.ea024d41.chunk.js": "/static/js/787.ea024d41.chunk.js",
+    "static/media/ice-landspace.jpeg": "/static/media/ice-landspace.796d007cebdd47cc489b.jpeg",
+    "static/media/sea-landspace.jpeg": "/static/media/sea-landspace.0f820b85d9a6a7e177b3.jpeg",
+    "static/media/logo.svg": "/static/media/logo.a6101328193bb3191cbcb50c120ec0d1.svg",
+    "static/media/logo-white.svg": "/static/media/logo-white.ee689fd9409d1b5a898b4247819d8a00.svg",
+    "static/media/star-fill.svg": "/static/media/star-fill.da9d18afad78fd24a08363077aa07f74.svg",
+    "static/media/star.svg": "/static/media/star.17bc9f78b4249820a72b69b8ff380150.svg",
+    "static/media/arrow-bottom.svg": "/static/media/arrow-bottom.bccd6cf42d5e274c712e0814145b665a.svg",
+    "index.html": "/index.html",
+    "static/media/arrow-right.svg": "/static/media/arrow-right.88153a5d119c2744ffe34dca1ef843df.svg",
+    "static/media/arrow-left.svg": "/static/media/arrow-left.19918a1634b1441a25ae0b50e6b1f85b.svg",
+    "main.f9be4bc8.css.map": "/static/css/main.f9be4bc8.css.map",
+    "main.75a36f5c.js.map": "/static/js/main.75a36f5c.js.map",
+    "787.ea024d41.chunk.js.map": "/static/js/787.ea024d41.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9be4bc8.css",
+    "static/js/main.75a36f5c.js"
+  ]
+}
