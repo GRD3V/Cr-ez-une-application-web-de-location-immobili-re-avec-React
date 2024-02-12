@@ -1,0 +1,10 @@
+@import "../variables.scss";
+div.rating-container {
+  @media (max-width: $mobile-width) {
+    & > div.rating-content {
+      img {
+        height: 25px;
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+div.host-container {
+  margin-bottom: 20px;
+  .host-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    .host-name {
+      display: flex;
+      flex-direction: column;
+      p {
+        color: #ff6060;
+        text-align: right;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 142.6%; /* 25.668px */
+      }
+      p:first-child {
+        margin-bottom: 0;
+        margin-top: auto;
+      }
+      p:last-child {
+        margin-top: 0;
+        margin-bottom: auto;
+      }
+    }
+    img {
+      background-color: #c4c4c4;
+      height: 64px;
+      width: auto;
+      border-radius: 100%;
+      object-fit: cover;
+      object-position: center;
+      margin-left: 10px;
+    }
+  }
+}

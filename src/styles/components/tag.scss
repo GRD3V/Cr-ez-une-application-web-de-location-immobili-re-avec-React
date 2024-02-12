@@ -1,0 +1,22 @@
+div.tag-container {
+  border-radius: 10px;
+  background: var(--primary-color);
+  height: 25px;
+  min-width: 115px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 10px;
+  .tag-content {
+    display: flex;
+    height: 100%;
+    p {
+      margin: auto;
+      color: white;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 142.6%; /* 19.964px */
+      padding: 0 10px;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+@import "../variables.scss";
+
+div.article-list-container {
+  display: flex;
+  margin-top: 43px;
+  margin-bottom: 20px;
+  & > .article-list-content {
+    position: relative;
+    max-width: $max-width;
+    width: 100%;
+    border-radius: 25px;
+    background-color: #f6f6f6;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 58px 0;
+    display: flex;
+    & > .article-grid-content {
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(3, 340px);
+      gap: 60px;
+
+      @media (max-width: 1280px) {
+        grid-template-columns: repeat(2, 340px);
+      }
+
+      @media (max-width: $mobile-width) {
+        width: 100%;
+        grid-template-columns: repeat(1, 100%);
+        gap: 20px;
+      }
+    }
+
+    @media (max-width: $mobile-width) {
+      background-color: white;
+      padding: 20px 0;
+      padding-top: 0;
+    }
+  }
+}

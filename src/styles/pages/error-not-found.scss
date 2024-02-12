@@ -1,0 +1,39 @@
+@import "../variables.scss";
+h1.not-found-title {
+  color: #ff6060;
+  text-align: center;
+  font-size: 288px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 0;
+
+  @media (max-width: $mobile-width) {
+    font-size: 96px;
+  }
+}
+
+h2.not-found-title-2 {
+  color: #ff6060;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 0;
+
+  @media (max-width: $mobile-width) {
+    font-size: 18px;
+  }
+}
+
+p.go-home-page {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 142.6%; /* 25.668px */
+  text-decoration-line: underline;
+  text-align: center;
+  margin-top: 120px;
+  & > a {
+    color: #ff6060;
+  }
+}

@@ -1,0 +1,81 @@
+@import "../variables.scss";
+
+div.collapse {
+  width: 100%;
+  overflow: hidden;
+  & > .collapse-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    & > .collapse-header {
+      width: 100%;
+      height: 47px;
+      border-radius: 5px;
+      background-color: $primary-color;
+      z-index: 1;
+      display: flex;
+      justify-content: space-between;
+      & > p {
+        margin: auto 20px;
+        color: #fff;
+
+        font-size: 18px;
+        font-weight: 500;
+      }
+      & > .collapse-arrow {
+        width: 47px;
+        display: flex;
+        & > img {
+          margin: auto;
+          height: 32px;
+        }
+      }
+
+      @media (max-width: $mobile-width) {
+        height: 30px;
+        & > p {
+          font-size: 13px;
+        }
+        & > .collapse-arrow {
+          width: 30px;
+          & > img {
+            height: 18px;
+          }
+        }
+      }
+    }
+    & > .collapse-text {
+      height: 0;
+      background-color: #f6f6f6;
+      border-radius: 5px;
+
+      & > p {
+        margin: 0;
+        padding: 20px;
+        color: $primary-color;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 142.6%; /* 34.224px */
+
+        & > span {
+          display: block;
+        }
+
+        @media (max-width: $mobile-width) {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
+  &.open > .collapse-content {
+    & > .collapse-header {
+      img {
+        transform: rotate(180deg);
+      }
+    }
+    & > .collapse-text {
+      height: max-content;
+    }
+  }
+}
